@@ -33,7 +33,7 @@ module.exports = function (subject, text) {
   // 获取GitHub Secrets
   if (process.env["MAIL"] && process.env["TOMAIL"]) {
     // 自己的邮箱
-    let user = 'ux34@qq.com'
+    let user = '597874789@qq.com'
     // qq邮箱授权码
     let pass = process.env["MAIL"];
     // 要通知的邮箱
